@@ -1,0 +1,44 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 0;
+}
+
+.custom-chart {
+  height: 100%;
+  margin-bottom: 50px;
+}
+
+.row {
+  display: flex;
+}
+
+.button {
+  background: black;
+  color: white;
+  border: black;
+  padding: 4px;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+
+.box-set {
+  padding: 20px !important;
+  position: relative;
+}
+
+.header {
+  position: absolute;
+  top: -2%;
+  left: 0%;
+}
+
+.highcharts-credits {
+  display: none !important;
+}
+
+.export_button {
+  padding: 10px;
+  border-radius: 10px;
+}
